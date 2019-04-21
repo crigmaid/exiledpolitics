@@ -45,6 +45,7 @@ parse_args() {
         --sklansky)
             echo "Matt Sklanksy is a functioning stillborn."
             exit 69
+            ;;
         *)
             echo "Invalid parameter given to script"
             print_usage

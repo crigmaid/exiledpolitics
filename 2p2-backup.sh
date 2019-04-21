@@ -70,6 +70,7 @@ while [[ $i -le $num_pages ]]; do
     wget -b -O $output_file_name$i".html" \
       $thread_base_index"index"$i".html"
     i=$((i+1))
+    rm -f wget-log
     sleep 1
 done
 
